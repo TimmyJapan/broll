@@ -14,7 +14,7 @@
 
 #include "dialogs.h"
 
-#undef DEFINE_DIALOG
+#undef DEFINE_DIALOG;
 #define DEFINE_DIALOG(id, _1, _2, _3, _4, _5) &dialog_entry_ ## id,
 
 const struct DialogEntry *const seg2_dialog_table[] = {
